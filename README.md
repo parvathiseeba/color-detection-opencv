@@ -19,3 +19,8 @@ K-Means clustering and OpenCV.
 ```bash
 pip install -r requirements.txt
 python color_detection.py
+## 🧠 Note
+
+This project was independently developed by me.
+It was inspired by my earlier exposure to computer vision projects,
+and this implementation represents my own understanding and learning.
