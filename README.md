@@ -24,3 +24,32 @@ python color_detection.py
 This project was independently developed by me.
 It was inspired by my earlier exposure to computer vision projects,
 and this implementation represents my own understanding and learning.
+# Color Detection System
+
+Designed a modular computer vision pipeline to extract dominant colors from images using unsupervised clustering. Supports structured input/output handling, visual analysis, and configurable clustering for design and visual analytics use cases.
+
+---
+
+## Pipeline Overview
+Input Image → Preprocessing → K-Means Clustering → Color Ranking → Visualization
+
+---
+
+## Use Cases
+- UI/UX color palette extraction
+- Branding and design analysis
+- Visual data summarization
+
+---
+
+## Limitations
+- Performance depends on image resolution
+- Not suitable for semantic color understanding
+- K-Means may vary slightly across runs
+
+---
+
+## Future Enhancements
+- Live webcam color detection
+- Adaptive cluster selection
+- GUI-based visualization
